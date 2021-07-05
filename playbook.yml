@@ -10,7 +10,7 @@
         src: webapp.war
         dest: .
   - name: Stop running container
-    command: docker rm -f custom-tomcat
+    command: docker rm -f webapp
     ignore_errors: True
     
   - name: remove Image
